@@ -1,13 +1,18 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+import SpaHero from "@/components/SpaHero";
+import SpaServices from "@/components/SpaServices";
+import SpaAbout from "@/components/SpaAbout";
+import SpaTestimonials from "@/components/SpaTestimonials";
+import SpaContact from "@/components/SpaContact";
 
 const Index = () => {
   return (
-    <div className="min-h-screen flex items-center justify-center bg-background">
-      <div className="text-center">
-        <h1 className="text-4xl font-bold mb-4">Welcome to Your Blank App</h1>
-        <p className="text-xl text-muted-foreground">Start building your amazing project here!</p>
-      </div>
-    </div>
+    <main className="min-h-screen">
+      <SpaHero />
+      <SpaServices />
+      <SpaAbout />
+      <SpaTestimonials />
+      <SpaContact />
+    </main>
   );
 };
 

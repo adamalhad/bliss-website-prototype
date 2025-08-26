@@ -18,6 +18,9 @@ const buttonVariants = cva(
           "bg-secondary text-secondary-foreground hover:bg-secondary/80",
         ghost: "hover:bg-accent hover:text-accent-foreground",
         link: "text-primary underline-offset-4 hover:underline",
+        "spa-hero": "bg-white/10 text-white border border-white/20 hover:bg-white/20 shadow-button-spa backdrop-blur-sm transition-spa",
+        "spa-secondary": "bg-transparent text-white border border-white/40 hover:bg-white hover:text-spa-sage-dark transition-spa",
+        "spa-primary": "bg-spa-sage text-white hover:bg-spa-sage-dark shadow-button-spa transition-spa",
       },
       size: {
         default: "h-10 px-4 py-2",

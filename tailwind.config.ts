@@ -52,6 +52,15 @@ export default {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
 				},
+				spa: {
+					sage: 'hsl(var(--spa-sage))',
+					'sage-light': 'hsl(var(--spa-sage-light))',
+					'sage-dark': 'hsl(var(--spa-sage-dark))',
+					earth: 'hsl(var(--spa-earth))',
+					'earth-light': 'hsl(var(--spa-earth-light))',
+					blue: 'hsl(var(--spa-blue))',
+					'blue-light': 'hsl(var(--spa-blue-light))'
+				},
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',
 					foreground: 'hsl(var(--sidebar-foreground))',
@@ -67,6 +76,19 @@ export default {
 				lg: 'var(--radius)',
 				md: 'calc(var(--radius) - 2px)',
 				sm: 'calc(var(--radius) - 4px)'
+			},
+			backgroundImage: {
+				'gradient-spa': 'var(--gradient-spa)',
+				'gradient-hero': 'var(--gradient-hero)',
+				'gradient-card': 'var(--gradient-card)'
+			},
+			boxShadow: {
+				'spa': 'var(--shadow-spa)',
+				'card-spa': 'var(--shadow-card)',
+				'button-spa': 'var(--shadow-button)'
+			},
+			transitionTimingFunction: {
+				'spa': 'var(--transition-spa)'
 			},
 			keyframes: {
 				'accordion-down': {
